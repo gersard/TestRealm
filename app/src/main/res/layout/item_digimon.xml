@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android.support.v7.cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_digimon"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android.support.v7.cardview:cardCornerRadius="6dp"
+    android.support.v7.cardview:cardElevation="4dp">
+
+    <ImageView
+        android:id="@+id/imagen_digimon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_nombre_digimon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agumon"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txt_ataque_digimon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Flama Bebe"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_temporada_digimon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Adventure"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="20dp"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_update"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_update" />
+
+        <ImageView
+            android:id="@+id/img_delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_delete" />
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

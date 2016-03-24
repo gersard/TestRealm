@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TestRealm</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="spinnerTemps">
+        <item>Temporada</item>
+        <item>Adventure</item>
+        <item>Zero Two</item>
+        <item>Tamers</item>
+        <item>Frontier</item>
+        <item>Savers</item>
+        <item>Xros Wars</item>
+        <item>Adventure Tri</item>
+    </string-array>
+
+</resources>

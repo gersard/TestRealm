@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginStart="10dp"
+
+    tools:context="com.example.gerardo.testrealm.fragment.AgregarFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/digimon_logo" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="133dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_temporadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:entries="@array/spinnerTemps"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit_nombre_digimon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Nombre del digimon" />
+
+        <EditText
+            android:id="@+id/edit_ataque_digimon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:hint="Ataque del digimon" />
+
+        <EditText
+            android:id="@+id/edit_urlimagen_digimon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:hint="URL de la imagen del digimon" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_agregar_digimon"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="370dp"
+        android:background="@color/colorPrimary"
+        android:text="Agregar Digimon"
+        android:textStyle="bold" />
+
+</FrameLayout>
